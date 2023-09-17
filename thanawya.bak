@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>thanawya2023_part1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="seat_num" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="student_name" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="school_name" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="status" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="arabic" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="first_language" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="second_language" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="history" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="geography" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="philosophy_logic" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="psychology_sociology" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="chemistry" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="physics" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="pure_mathematics" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="applied_mathematics" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="biology" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="geology" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="total" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="religion" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="national_education" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+            <Field name="Economics_statistics" size="254" source="File: C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023_part1.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ahmed\AppData\Local\Temp\Engine_6976_5198f2a629612a468c9995ac702cdbe7_\Engine_6976_350c3dd90674684b9abd670051967e1a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'unsure'" field="section" size="1073741823" type="V_WString" />
+            <FormulaField expression="IIF([chemistry] != '0' &amp;&amp; [chemistry] != '0.0' &amp;&amp; [physics] != '0' &amp;&amp; [physics] != '0.0' &amp;&amp; [pure_mathematics]  != '0' &amp;&amp; [pure_mathematics]  != '0.0' &amp;&amp; [applied_mathematics] != '0' &amp;&amp; [applied_mathematics] != '0.0' , 'math', [section])" field="section" size="1073741823" type="V_WString" />
+            <FormulaField expression="IIF([chemistry] != '0' &amp;&amp; [chemistry] != '0.0' &amp;&amp; [physics] != '0' &amp;&amp; [physics] != '0.0' &amp;&amp; [biology]  != '0' &amp;&amp; [biology]  != '0.0' &amp;&amp; [geology] != '0' &amp;&amp; [geology] != '0.0' , 'science', [section])" field="section" size="1073741823" type="V_WString" />
+            <FormulaField expression="IIF([history] != '0' &amp;&amp; [history] != '0.0' &amp;&amp; [philosophy_logic] != '0' &amp;&amp; [philosophy_logic] != '0.0' &amp;&amp; [geography]  != '0' &amp;&amp; [geography]  != '0.0' &amp;&amp; [psychology_sociology] != '0' &amp;&amp; [psychology_sociology] != '0.0' , 'literature', [section])" field="section" size="1073741823" type="V_WString" />
+            <FormulaField expression="IIF([history] IN ('postponed', 'absence'), '0', [history])" field="history" size="254" type="V_WString" />
+            <FormulaField expression="IIF([arabic]IN ('postponed', 'absence'), '0', [arabic])" field="arabic" size="254" type="V_WString" />
+            <FormulaField expression="IIF([first_language]IN ('postponed', 'absence','cancelled'), '0',[first_language])" field="first_language" size="254" type="V_WString" />
+            <FormulaField expression="IIF([second_language]IN ('postponed', 'absence', 'exempt'), '0',[second_language])" field="second_language" size="254" type="V_WString" />
+            <FormulaField expression="IIF([geography]IN ('postponed', 'absence'), '0',[geography])" field="geography" size="254" type="V_WString" />
+            <FormulaField expression="IIF([philosophy_logic]IN ('postponed', 'absence'), '0',[philosophy_logic])" field="philosophy_logic" size="254" type="V_WString" />
+            <FormulaField expression="IIF([psychology_sociology]IN ('postponed', 'absence'), '0',[psychology_sociology])" field="psychology_sociology" size="254" type="V_WString" />
+            <FormulaField expression="IIF([chemistry]IN ('postponed', 'absence'), '0',[chemistry])" field="chemistry" size="254" type="V_WString" />
+            <FormulaField expression="IIF([physics]IN ('postponed', 'absence'), '0',[physics])" field="physics" size="254" type="V_WString" />
+            <FormulaField expression="IIF([pure_mathematics]IN ('postponed', 'absence'), '0',[pure_mathematics])" field="pure_mathematics" size="254" type="V_WString" />
+            <FormulaField expression="IIF([applied_mathematics]IN ('postponed', 'absence'), '0',[applied_mathematics])" field="applied_mathematics" size="254" type="V_WString" />
+            <FormulaField expression="+ IIF([biology]IN ('postponed', 'absence'), '0',[biology])" field="biology" size="254" type="V_WString" />
+            <FormulaField expression="IIF([geology]IN ('postponed', 'absence'), '0',[geology])" field="geology" size="254" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>section = 'unsure'
+section = IIF([chemistry] != '0' &amp;&amp; [chemistry] != '0.0' &amp;&amp; [...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="arabic" selected="True" type="Double" size="8" />
+            <SelectField field="first_language" selected="True" type="Double" size="8" />
+            <SelectField field="second_language" selected="True" type="Double" size="8" />
+            <SelectField field="history" selected="True" type="Double" size="8" />
+            <SelectField field="geography" selected="True" type="Double" size="8" />
+            <SelectField field="philosophy_logic" selected="True" type="Double" size="8" />
+            <SelectField field="psychology_sociology" selected="True" type="Double" size="8" />
+            <SelectField field="chemistry" selected="True" type="Double" size="8" />
+            <SelectField field="physics" selected="True" type="Double" size="8" />
+            <SelectField field="pure_mathematics" selected="True" type="Double" size="8" />
+            <SelectField field="applied_mathematics" selected="True" type="Double" size="8" />
+            <SelectField field="biology" selected="True" type="Double" size="8" />
+            <SelectField field="geology" selected="True" type="Double" size="8" />
+            <SelectField field="total" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression=" [history]+ [arabic]+[first_language]+[second_language]+[geography]+[philosophy_logic]+[psychology_sociology] +[chemistry] +[physics]+[pure_mathematics]+[applied_mathematics]+[biology]+[geology]" field="total" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>total =  [history]+ [arabic]+[first_language]+[second_language]+[geography]+[phi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="222" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="seat_num" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="702" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="seat_num" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="seat_num" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_total" selected="False" input="Left_" />
+                <SelectField field="Right_seat_num" selected="False" rename="Right_seat_num" input="Right_" />
+                <SelectField field="Right_student_name" selected="False" rename="Right_student_name" input="Right_" />
+                <SelectField field="Right_school_name" selected="False" rename="Right_school_name" input="Right_" />
+                <SelectField field="Right_status" selected="False" rename="Right_status" input="Right_" />
+                <SelectField field="Right_arabic" selected="False" rename="Right_arabic" input="Right_" />
+                <SelectField field="Right_first_language" selected="False" rename="Right_first_language" input="Right_" />
+                <SelectField field="Right_second_language" selected="False" rename="Right_second_language" input="Right_" />
+                <SelectField field="Right_history" selected="False" rename="Right_history" input="Right_" />
+                <SelectField field="Right_geography" selected="False" rename="Right_geography" input="Right_" />
+                <SelectField field="Right_philosophy_logic" selected="False" rename="Right_philosophy_logic" input="Right_" />
+                <SelectField field="Right_psychology_sociology" selected="False" rename="Right_psychology_sociology" input="Right_" />
+                <SelectField field="Right_chemistry" selected="False" rename="Right_chemistry" input="Right_" />
+                <SelectField field="Right_physics" selected="False" rename="Right_physics" input="Right_" />
+                <SelectField field="Right_pure_mathematics" selected="False" rename="Right_pure_mathematics" input="Right_" />
+                <SelectField field="Right_applied_mathematics" selected="False" rename="Right_applied_mathematics" input="Right_" />
+                <SelectField field="Right_biology" selected="False" rename="Right_biology" input="Right_" />
+                <SelectField field="Right_geology" selected="False" rename="Right_geology" input="Right_" />
+                <SelectField field="Right_religion" selected="False" rename="Right_religion" input="Right_" />
+                <SelectField field="Right_national_education" selected="False" rename="Right_national_education" input="Right_" />
+                <SelectField field="Right_Economics_statistics" selected="False" rename="Right_Economics_statistics" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="786" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="seat_num" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>seat_num - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="870" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="seat_num" selected="True" />
+            <SelectField field="student_name" selected="True" />
+            <SelectField field="school_name" selected="True" />
+            <SelectField field="status" selected="True" />
+            <SelectField field="section" selected="True" />
+            <SelectField field="arabic" selected="True" />
+            <SelectField field="first_language" selected="True" />
+            <SelectField field="second_language" selected="True" />
+            <SelectField field="history" selected="True" />
+            <SelectField field="geography" selected="True" />
+            <SelectField field="philosophy_logic" selected="True" />
+            <SelectField field="psychology_sociology" selected="True" />
+            <SelectField field="chemistry" selected="True" />
+            <SelectField field="physics" selected="True" />
+            <SelectField field="pure_mathematics" selected="True" />
+            <SelectField field="applied_mathematics" selected="True" />
+            <SelectField field="biology" selected="True" />
+            <SelectField field="geology" selected="True" />
+            <SelectField field="religion" selected="True" />
+            <SelectField field="national_education" selected="True" />
+            <SelectField field="Economics_statistics" selected="True" />
+            <SelectField field="total" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="942" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\ahmed\Desktop\DataScience\WebScraping\thanawya2023.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>thanawya2023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Unique" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Unique" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>thanawya</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="238d56ce-1bd2-401b-a2cf-5aef0eea8d79" />
+      <Telemetry>
+        <PreviousWorkflowId value="804a5f7d-8a84-46d7-b497-c8610692b14f" />
+        <OriginWorkflowId value="804a5f7d-8a84-46d7-b497-c8610692b14f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
